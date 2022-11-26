@@ -1,0 +1,51 @@
+@font-face {
+  font-family: CursedTimerUlil;
+  src: url("font/CursedTimerUlil-Aznm.ttf");
+}
+body {
+  text-align: center;
+  background-image: url("image/hoops.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 500px;
+  height: 340px;
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-around;
+  align-items: flex-end;
+  background: #1b244a;
+}
+
+.column {
+  color: #eeeeee;
+  font-size: 35px;
+}
+h4 {
+  font-family: CursedTimerUlil;
+  font-size: 85px;
+  color: #f94f6d;
+  padding-top: 24px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  width: 150px;
+  height: 110px;
+  border-radius: 5px;
+  background-color: #080001;
+}
+
+button {
+  font-family: CursedTimerUlil;
+  font-size: 18px;
+  color: #9aabd8;
+  margin-bottom: 50px;
+  border: 2px solid #9aabd8;
+  background: #1b244a;
+  border-radius: 5px;
+  padding: 8px;
+}
+.btn {
+  margin: 0;
+}
